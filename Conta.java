@@ -54,7 +54,7 @@
  //exibir vai chama o toString
  public String toString(){
      return "Conta: " + numero_conta + "\nCliente: " + nome_cliente +
-     "\n Saldo: R$ " + saldo + "\nAtiva: " + (ativa ? "Sim": "Não");
+     "\nSaldo: R$ " + saldo + "\nAtiva: " + (ativa ? "Sim": "Não");
  }
  public void exibir(){
      System.out.println(toString());
