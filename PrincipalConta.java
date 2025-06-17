@@ -7,7 +7,7 @@ public class PrincipalConta {
     Conta c3 = new Conta(196, "Ino");
     
     //exibir estado inicial
-    System.out.println("  Estado inicial:  ");
+    System.out.println("-----Estado inicial:-----");
     c1.exibir();
     c2.exibir();
     c3.exibir();
@@ -18,7 +18,7 @@ public class PrincipalConta {
     c3.depositar(1000);
     
     //exibir o estado das contas pos deposito
-    System.out.println("   Após o deposito:   ");
+    System.out.println("-----Após o deposito:-----");
     c1.exibir();
     c2.exibir();
     c3.exibir();
@@ -34,7 +34,7 @@ public class PrincipalConta {
     c3.sacar(100);
     
     //exibir o estado da conta 
-    System.out.println("     Depois do saque:   ");
+    System.out.println("-----Depois do saque:-----");
     c1.exibir();
     c2.exibir();
     c3.exibir();
@@ -44,7 +44,7 @@ public class PrincipalConta {
     c3.desativar();
     
     //exibir o estado da conta 
-    System.out.println("     Estado Final:    ");
+    System.out.println("-----Estado Final:-----");
     c1.exibir();
     c2.exibir();
     c3.exibir();
