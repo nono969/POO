@@ -27,23 +27,21 @@ public void setNota2(double nota2){ this.nota2 = nota2; }
 
 //metodos
 public void calcularMedia(){
-    if(nota1 + nota2) /2;
-
-    System.out.println("a media das duas notas é: ");   
-
+    return (nota1 + nota2) / 2.0;   
 }
 public void situacao(){
-    if(medias > 7.0){
-    System.out.println("aprovado");  
-        } else {
-        
-    System.out.println("reprovado");
-        }
+    if(calcularMedia() >= 7.0){
+        return "aprovado";
+    } else {
+        return "reprovado";
+    }
+
+
+    }
 }
 public void exibirInfo(){
     System.out.println("aluno(a): " + nome + "\nmatricula: " + matricula +
     "\nnotas:  " + nota1 + nota2 + "\nmedias: " + calcularMedia +
     "\nsituacao" + situacao);
     
-    }
 }
