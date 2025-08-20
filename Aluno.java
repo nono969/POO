@@ -26,22 +26,23 @@ public double getNota2(){ return nota2; }
 public void setNota2(double nota2){ this.nota2 = nota2; }
 
 //metodos
-public void calcularMedia(){
-    return (nota1 + nota2) / 2.0;   
+public double calcularMedia(){
+    return (nota1 + nota2) / 2;
 }
-public void situacao(){
-    if(calcularMedia() >= 7.0){
+public String situacao(){
+    if (calcularMedia() >= 7.0) {
         return "aprovado";
-    } else {
+    } 
+    else{
         return "reprovado";
-    }
-
 
     }
 }
+
 public void exibirInfo(){
     System.out.println("aluno(a): " + nome + "\nmatricula: " + matricula +
-    "\nnotas:  " + nota1 + nota2 + "\nmedias: " + calcularMedia +
-    "\nsituacao" + situacao);
+    "\nnotas:  " + nota1 + nota2 + "\nmedias: " + calcularMedia() +
+    "\nsituacao" + situacao());
     
+}
 }
