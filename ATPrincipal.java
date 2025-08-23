@@ -13,6 +13,7 @@ public class ATPrincipal{
     turma.adicionarAluno(a2);
     turma.adicionarAluno(a3);
     turma.adicionarAluno(a1);
+	 turma.adicionarAluno(a4);
 
 //listar todos os alunos e as suass innformaçoesss
 System.out.println("========== Alunos =========");
