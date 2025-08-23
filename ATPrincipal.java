@@ -15,15 +15,15 @@ public class ATPrincipal{
     turma.adicionarAluno(a1);
 
 //listar todos os alunos e as suass innformaçoesss
-System.out.println("========== Alunos ========="){
+System.out.println("========== Alunos =========");
     turma.listarAlunos();
-}
+
 //buscar pela matricular
 System.out.println("\n======== buscar matricula ========"){
-    Aluno encontrado = turma.buscarPorMatricular(2062);
+    Aluno encontrado = turma.buscarPorMatricula(2065);
     if(encontrado != null){
     encontrado.exibirInfor();
-} elese{
+} else{
     System.out.println("Aluno não existe!");
 }
     }
