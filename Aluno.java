@@ -42,7 +42,7 @@ public String situacao(){
 public void exibirInfo(){
     System.out.println("aluno(a): " + nome + "\nmatricula: " + matricula +
     "\nnotas:  " + nota1 + ", " + nota2 + "\nmedias: " + calcularMedia() +
-    "\nsituacao" + situacao());
+    "\nsituacao: " + situacao());
     
 }
 }
