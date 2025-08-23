@@ -25,7 +25,7 @@ System.out.println("\n======== buscar matricula ========");
     if(encontrado != null){
     encontrado.exibirInfo();
 } else{
-    System.out.println("Aluno não existe!");
+    System.out.println("Aluno não encontrado!");
 }
  
 }
