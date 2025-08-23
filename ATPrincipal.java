@@ -22,7 +22,7 @@ System.out.println("========== Alunos =========");
 System.out.println("\n======== buscar matricula ========");
     Aluno encontrado = turma.buscarPorMatricula(2065);
     if(encontrado != null){
-    encontrado.exibirInfor();
+    encontrado.exibirInfo();
 } else{
     System.out.println("Aluno não existe!");
 }
