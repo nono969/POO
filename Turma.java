@@ -4,9 +4,9 @@ public class Turma{
     private int qtde = 0;
 
 //metodos
-public void adicionarAluno(Aluno novoaluno){
+public void adicionarAluno(Aluno novoAluno){
     if(qtde < aluno.length){
-        aluno[qtde] = novoaluno;
+        aluno[qtde] = novoAluno;
         qtde++;
     } else {
         System.out.println("turma lotada!");
