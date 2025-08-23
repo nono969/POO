@@ -6,7 +6,7 @@ public class Turma{
 //metodos
 public void adicionarAluno(Aluno aluno){
     if(qtde < aluno.length){
-        aluno[qtde] = aluno;
+        aluno[qtde] = novoaluno;
         qtde++;
     } else {
         System.out.println("turma lotada!");
