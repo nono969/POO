@@ -23,6 +23,5 @@ public Aluno buscarPorMatricula(int matricula){
         }
         return aluno[i];
     }
-}
-    return null;
+} return null;
 }
