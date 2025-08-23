@@ -19,12 +19,12 @@ System.out.println("========== Alunos =========");
     turma.listarAlunos();
 
 //buscar pela matricular
-System.out.println("\n======== buscar matricula ========"){
+System.out.println("\n======== buscar matricula ========");
     Aluno encontrado = turma.buscarPorMatricula(2065);
     if(encontrado != null){
     encontrado.exibirInfor();
 } else{
     System.out.println("Aluno não existe!");
 }
-    }
+ 
 }
