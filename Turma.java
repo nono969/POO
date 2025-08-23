@@ -5,8 +5,8 @@ public class Turma{
 
 //metodos
 public void adicionarAluno(Aluno aluno){
-    if(qtde < alunos.length){
-        alunos[qtde] = aluno;
+    if(qtde < aluno.length){
+        aluno[qtde] = aluno;
         qtde++;
     } else {
         system.out.println("turma lotada!");
@@ -18,6 +18,11 @@ public void listarAlunos(){
     }
 }
 public Aluno buscarPorMatricula(int matricula){
-    return matricula;
+    for(int i = 0, i < qtde; i++){
+        if(aluno[i].getMatricula() == matricula){
+        }
+        return aluno[i];
+    }
 }
+    return null;
 }
