@@ -14,7 +14,7 @@ public void adicionarAluno(Aluno aluno){
 }
 public void listarAlunos(){
     for(int i = 0; i < qtde; i++){
-        aluno[i].exibirInfor();
+        aluno[i].exibirInfo();
     }
 }
 public Aluno buscarPorMatricula(int matricula){
