@@ -9,19 +9,19 @@ public void adicionarAluno(Aluno aluno){
         aluno[qtde] = aluno;
         qtde++;
     } else {
-        system.out.println("turma lotada!");
+        System.out.println("turma lotada!");
     }
 }
 public void listarAlunos(){
-    for(int i = 0, i < aluno.length; i++){
-        System.out.println(Aluno[i]);
+    for(int i = 0; i < qtde; i++){
+        aluno[i].exibirInfor();
     }
 }
 public Aluno buscarPorMatricula(int matricula){
-    for(int i = 0, i < qtde; i++){
+    for(int i = 0; i < qtde; i++){
         if(aluno[i].getMatricula() == matricula){
-        }
         return aluno[i];
     }
-} return null;
+}
+ return null;
 }
