@@ -4,7 +4,7 @@ public class Turma{
     private int qtde = 0;
 
 //metodos
-public void adicionarAluno(Aluno aluno){
+public void adicionarAluno(Aluno novoaluno){
     if(qtde < aluno.length){
         aluno[qtde] = novoaluno;
         qtde++;
