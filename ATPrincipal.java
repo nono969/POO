@@ -1,14 +1,14 @@
 
 public class ATPrincipal{
-    public static void main(Sting[] args){
+    public static void main(String[] args){
 //cria uma turma
     Turma turma = new Turma();
 
 //3 ou mais alunos
-    Aluno a1 = new Aluno("Joana Maria", 202113719934, 6.0, 2.5),
-    Aluno a2 = new Aluno("José", 202128391022, 7.6, 6.6),
-    Aluno a3 = new Aluno("Sanji", 202183900212, 9.5, 6.5),
-    Aluno a4 = new Aluno("Robin", 202102993865, 10.0, 10.0);
+    Aluno a1 = new Aluno("Joana Maria", 2024, 6.0, 2.5);
+    Aluno a2 = new Aluno("José", 2022, 7.6, 6.6);
+    Aluno a3 = new Aluno("Sanji", 2902, 9.5, 2.5);
+    Aluno a4 = new Aluno("Robin", 2065, 10.0, 10.0);
 
     turma.adicionarAluno(a2);
     turma.adicionarAluno(a3);
@@ -20,8 +20,8 @@ System.out.println("========== Alunos ========="){
 }
 //buscar pela matricular
 System.out.println("\n======== buscar matricula ========"){
-    Aluno encontrado = turma.buscarPorMatricular(2021839002112);
-    if(encontrado != null);
+    Aluno encontrado = turma.buscarPorMatricular(2062);
+    if(encontrado != null){
     encontrado.exibirInfor();
 } elese{
     System.out.println("Aluno não existe!");
