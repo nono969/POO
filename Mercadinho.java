@@ -9,7 +9,7 @@ public class Mercadinho{
         if(qtde < this.clientes.length)
             clientes[qtde] = c;
             qtde++;
-        } else {
+        }else{
             System.out.println("Cheio!");
     }
     
@@ -22,11 +22,9 @@ public class Mercadinho{
     public void imprimirClientes(){
         for(int i = 0; i < qtde; i++){
             Cliente c = clientes[i];
-        System.out.println(cliente[i]get.nome)
-        }
-    
-    
-    
-       
+        System.out.println(clientes[i].getNome());
+
+        } 
     }
+}
 }
